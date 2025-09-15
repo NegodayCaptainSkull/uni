@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -53,15 +53,21 @@ void theme4q2() {
 
     cin >> A >> B;
 
-    while (A > B) {
+    while (A != B) {
         switch (A % 2) {
         case 1:
             A -= 1;
             cout << "-1" << endl;
             break;
         case 0:
-            A /= 2;
-            cout << ":2" << endl;
+            if (A / 2 > B) {
+                A /= 2;
+                cout << ":2" << endl;
+            }
+            else {
+                A -= 1;
+                cout << "-1" << endl;
+            }
             break;
         }
     }
