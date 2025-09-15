@@ -1,0 +1,13 @@
+﻿  interestingCalculator.cpp
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(10,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(15,26): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(44,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(45,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(50,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(96,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(97,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(102,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(148,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(149,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\student\source\repos\interestingCalculator\interestingCalculator\interestingCalculator.cpp(154,35): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  interestingCalculator.vcxproj -> C:\Users\student\source\repos\interestingCalculator\x64\Debug\interestingCalculator.exe
