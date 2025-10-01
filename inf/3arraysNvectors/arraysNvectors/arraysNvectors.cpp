@@ -268,23 +268,35 @@ void task9() {
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < M; j++) {
-            int counter = 0;
-            for (int iFind = i - 1; iFind <= i + 1; iFind++) {
-                if (iFind < 0 || iFind >= N) {
-                    break;
-                }
-                for (int jFind = j - 1; jFind <= j + 1; jFind++) {
-                    if (jFind < 0 || jFind >= M) {
+            if (map[i][j] != -1) {
+                int counter = 0;
+                for (int iFind = i - 1; iFind <= i + 1; iFind++) {
+                    if (iFind < 0 || iFind >= N) {
                         break;
                     }
+                    for (int jFind = j - 1; jFind <= j + 1; jFind++) {
+                        if (jFind < 0 || jFind >= M) {
+                            break;
+                        }
+                        if (map[iFind][jFind] == -1) {
+                            counter++;
+                        }
+                    }
                 }
+                map[i][j] = counter;
+            }
+            if (map[i][j] == -1) {
+                cout << "*" << " ";
+            }
+            else {
+                cout << map[i][j] << " ";
             }
         }
+        cout << endl;
     }
-
 }
 
 int main()
 {
-    task8();
+    task9();
 }

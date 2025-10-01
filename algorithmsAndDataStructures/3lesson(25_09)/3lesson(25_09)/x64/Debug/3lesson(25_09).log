@@ -1,0 +1,9 @@
+﻿  3lesson(25_09).cpp
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(68,16): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(87,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(88,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(140,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(166,15): warning C4244: инициализация: преобразование "double" в "__int64", возможна потеря данных
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(172,24): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\uni\algorithmsAndDataStructures\3lesson(25_09)\3lesson(25_09)\3lesson(25_09).cpp(95,1): warning C4715: ferma: значение возвращается не при всех путях выполнения
+  3lesson(25_09).vcxproj -> D:\uni\algorithmsAndDataStructures\3lesson(25_09)\x64\Debug\3lesson(25_09).exe
