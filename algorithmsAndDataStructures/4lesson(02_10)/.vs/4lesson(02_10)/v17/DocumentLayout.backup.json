@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\uni\\algorithmsAndDataStructures\\4lesson(02_10)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BB7B49-B38D-4872-8C08-5A9F8D2FF6DA}|4lesson(02_10)\\4lesson(02_10).vcxproj|D:\\uni\\algorithmsAndDataStructures\\4lesson(02_10)\\4lesson(02_10)\\4lesson(02_10).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E2BB7B49-B38D-4872-8C08-5A9F8D2FF6DA}|4lesson(02_10)\\4lesson(02_10).vcxproj|solutionrelative:4lesson(02_10)\\4lesson(02_10).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "4lesson(02_10).cpp",
+              "DocumentMoniker": "D:\\uni\\algorithmsAndDataStructures\\4lesson(02_10)\\4lesson(02_10)\\4lesson(02_10).cpp",
+              "RelativeDocumentMoniker": "4lesson(02_10)\\4lesson(02_10).cpp",
+              "ToolTip": "D:\\uni\\algorithmsAndDataStructures\\4lesson(02_10)\\4lesson(02_10)\\4lesson(02_10).cpp",
+              "RelativeToolTip": "4lesson(02_10)\\4lesson(02_10).cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-08T18:39:19.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
