@@ -46,7 +46,7 @@ pair<vector<int>, vector<int>> sortNumbers(vector<int> firstNumber, vector<int> 
         return { secondNumber, firstNumber };
     }
     else if (firstNumber.size() == secondNumber.size()) {
-        for (int i = firstNumber.size(); i >= 0; i--) {
+        for (int i = firstNumber.size() - 1; i >= 0; i--) {
             if (firstNumber[i] > secondNumber[i]) {
                 return { firstNumber, secondNumber };
             }
@@ -69,41 +69,46 @@ vector<int> numberOperations(vector<int> firstNumber, vector<int> secondNumber, 
     switch (operation) {
     case '+':
         for (int i = 0; i < greaterNumber.size(); i++) {
+            int midleResult;
             if (i < lowerNumber.size()) {
-                int middleResult = greaterNumber[i] + lowerNumber[i] + numberInMind;
-                resultNumber.push_back(middleResult % 10);
-                numberInMind = middleResult / 10;
+                midleResult = greaterNumber[i] + lowerNumber[i] + numberInMind;
             }
             else {
-                int middleResult = greaterNumber[i] + numberInMind;
-                resultNumber.push_back(middleResult % 10);
-                numberInMind = middleResult / 10;
+                midleResult = greaterNumber[i] + numberInMind;
             }
+            resultNumber.push_back(midleResult % 10);
+            numberInMind = midleResult / 10;
+        }
+        if (numberInMind > 0) {
+            resultNumber.push_back(numberInMind);
         }
         return resultNumber;
     case '-':
         for (int i = 0; i < greaterNumber.size(); i++) {
+            int midleResult;
             if (i < lowerNumber.size()) {
-                int middleResult = greaterNumber[i] - lowerNumber[i] - numberInMind;
-                if (middleResult < 0) {
-                    resultNumber.push_back(middleResult + 10);
-                    numberInMind = 1;
-                }
-                else {
-                    resultNumber.push_back(middleResult);
-                    numberInMind = 0;
-                }
+                midleResult = greaterNumber[i] - lowerNumber[i] - numberInMind;
+                
             }
             else {
-                int middleResult = greaterNumber[i] - numberInMind;
-                if (middleResult < 0) {
-                    resultNumber.push_back(middleResult + 10);
-                    numberInMind = 1;
-                }
-                else {
-                    resultNumber.push_back(middleResult);
-                    numberInMind = 0;
-                }
+                midleResult = greaterNumber[i] - numberInMind;
+            }
+            if (midleResult < 0) {
+                resultNumber.push_back(midleResult + 10);
+                numberInMind = 1;
+            }
+            else {
+                resultNumber.push_back(midleResult);
+                numberInMind = 0;
+            }
+        }
+
+        for (int i = resultNumber.size() - 1; i >= 0; i--) {
+            if (resultNumber[i] == 0) {
+                resultNumber.pop_back();
+            }
+            else {
+                break;
             }
         }
         return resultNumber;
