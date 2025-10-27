@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+D:\uni\olymp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(18,20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uni\olymp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(19,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uni\olymp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(20,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\uni\olymp\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(21,18): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> D:\uni\olymp\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

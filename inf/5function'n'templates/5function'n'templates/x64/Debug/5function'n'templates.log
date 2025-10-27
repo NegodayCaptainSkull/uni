@@ -1,5 +1,0 @@
-﻿  5function'n'templates.cpp
-C:\Users\student\Desktop\5function'n'templates\5function'n'templates\5function'n'templates.cpp(51,22): warning C4129: "|": нераспознанная escape-последовательность символов
-C:\Users\student\Desktop\5function'n'templates\5function'n'templates\5function'n'templates.cpp(52,22): warning C4129: "|": нераспознанная escape-последовательность символов
-C:\Users\student\Desktop\5function'n'templates\5function'n'templates\5function'n'templates.cpp(113,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  5function'n'templates.vcxproj -> C:\Users\student\Desktop\5function'n'templates\x64\Debug\5function'n'templates.exe

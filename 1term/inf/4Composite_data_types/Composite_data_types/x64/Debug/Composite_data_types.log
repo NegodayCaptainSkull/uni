@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Composite_data_types.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Composite_data_types.cpp
+C:\Users\student\source\repos\Composite_data_types\Composite_data_types\Composite_data_types.cpp(67,16): warning C4244: инициализация: преобразование "_Rep" в "unsigned int", возможна потеря данных
+C:\Users\student\source\repos\Composite_data_types\Composite_data_types\Composite_data_types.cpp(67,16): warning C4244:         with
+C:\Users\student\source\repos\Composite_data_types\Composite_data_types\Composite_data_types.cpp(67,16): warning C4244:         [
+C:\Users\student\source\repos\Composite_data_types\Composite_data_types\Composite_data_types.cpp(67,16): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\student\source\repos\Composite_data_types\Composite_data_types\Composite_data_types.cpp(67,16): warning C4244:         ]
+  Composite_data_types.vcxproj -> C:\Users\student\source\repos\Composite_data_types\x64\Debug\4Composite_data_types.exe

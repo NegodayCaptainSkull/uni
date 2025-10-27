@@ -1,0 +1,7 @@
+﻿  4lesson(02_10).cpp
+D:\uni\algorithmsAndDataStructures\4lesson(02_10)\4lesson(02_10)\4lesson(02_10).cpp(34,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\uni\algorithmsAndDataStructures\4lesson(02_10)\4lesson(02_10)\4lesson(02_10).cpp(49,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\uni\algorithmsAndDataStructures\4lesson(02_10)\4lesson(02_10)\4lesson(02_10).cpp(106,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\uni\algorithmsAndDataStructures\4lesson(02_10)\4lesson(02_10)\4lesson(02_10).cpp(61,1): warning C4715: sortNumbers: значение возвращается не при всех путях выполнения
+D:\uni\algorithmsAndDataStructures\4lesson(02_10)\4lesson(02_10)\4lesson(02_10).cpp(116,1): warning C4715: numberOperations: значение возвращается не при всех путях выполнения
+  4lesson(02_10).vcxproj -> D:\uni\algorithmsAndDataStructures\4lesson(02_10)\x64\Debug\4lesson(02_10).exe
