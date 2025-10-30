@@ -1,0 +1,3 @@
+﻿  2task.cpp
+C:\Users\student\source\repos\test2\2task\2task\2task.cpp(29,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  2task.vcxproj -> C:\Users\student\source\repos\test2\2task\x64\Debug\2task.exe
